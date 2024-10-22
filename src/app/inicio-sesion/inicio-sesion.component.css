@@ -1,0 +1,249 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.imagen {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  top: 185px;
+  left: 100px;
+  background: url('/assets/images/logo.png')
+    no-repeat center;
+  background-size: cover;
+}
+.flex-column-fb {
+  position: absolute;
+  width: 548px;
+  height: 603px;
+  top: 208px;
+  left: 790px;
+  z-index: 4;
+}
+.rectangle {
+  position: relative;
+  width: 548px;
+  height: 463px;
+  margin: 0 0 0 0;
+  background: #ffffff;
+  border: 1px solid #8d949e;
+  z-index: 1;
+  overflow: visible auto;
+  border-radius: 15px;
+}
+.rectangle-1 {
+  position: relative;
+  width: 500px;
+  height: 75px;
+  margin: 35px 0 0 24px;
+  background: #ffffff;
+  border: 1px solid #8d949e;
+  z-index: 15;
+  border-radius: 15px;
+}
+.group-input {
+  position: absolute;
+  width: 500px;
+  height: 75px;
+  top: -1px;
+  left: -1px;
+  background: transparent;
+  border: none;
+  z-index: 17;
+  outline: none;
+}
+.correo-electronico {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36px;
+  top: 24px;
+  left: 38px;
+  color: #8d949e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+.rectangle-2 {
+  position: relative;
+  width: 500px;
+  height: 75px;
+  margin: 43px 0 0 24px;
+  background: #ffffff;
+  border: 1px solid #8d949e;
+  z-index: 7;
+  border-radius: 15px;
+}
+.group-input-3 {
+  position: absolute;
+  width: 500px;
+  height: 75px;
+  top: -1px;
+  left: -1px;
+  background: transparent;
+  border: none;
+  z-index: 9;
+  outline: none;
+}
+.contrasena {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 30px;
+  top: 26px;
+  left: 38px;
+  color: #8d949e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+.rectangle-4 {
+  position: relative;
+  width: 500px;
+  height: 60px;
+  margin: 59px 0 0 24px;
+  background: #9d2449;
+  border: 1px solid #8d949e;
+  z-index: 11;
+  overflow: visible auto;
+  border-radius: 15px;
+}
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 184px;
+  margin: 4.241px 0 0 136px;
+  padding: 10px 10px 10px 10px;
+  z-index: 12;
+}
+.password {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 36px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+  -webkit-text-stroke: 1px #ffffff;
+}
+.forgot-password {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 58px 0 0 158px;
+  color: #761b37;
+  font-family: Inter, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-5 {
+  position: relative;
+  width: 548px;
+  height: 113px;
+  margin: 27px 0 0 0;
+  background: #ffffff;
+  border: 1px solid #8d949e;
+  z-index: 4;
+  overflow: visible auto;
+  border-radius: 15px;
+}
+.no-account {
+  position: relative;
+  width: 485px;
+  height: 36px;
+  margin: 39px 0 0 31px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 5;
+}
+.no-account-6 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.307px;
+  text-align: left;
+}
+.re {
+  position: relative;
+  color: #761b37;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.307px;
+  text-align: left;
+}
+.g {
+  position: relative;
+  color: #9d2449;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.307px;
+  text-align: left;
+}
+.re-7 {
+  position: relative;
+  color: #761b37;
+  font-family: Inter, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.307px;
+  text-align: left;
+}
